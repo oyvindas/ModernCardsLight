@@ -1,0 +1,38 @@
+<!--
+Media Center Resource XML (Default / English)
+-->
+
+<MJRS version="1.0">
+
+<!--
+ACCELERATORS:
+
+	Key: semi-colon delimited list of key strokes to be pressed (see list below for special keys)
+		note that the only valid combinations are: [Key], [Key];Ctrl, [Key];Shift;Ctrl, [Key];Alt
+	Command: the MCC command index
+	Param: the parameter for the MCC command
+	TranslateFlags: flags that determine when and how an accelerator is translated (binary or'd together)
+		1: don't translate in edits, comboboxes, and other data entry controls
+		2: don't translate in fullscreen mode or theater view
+		4: don't translate in any type of popup window
+		8: only translate in fullscreen
+		16: don't translate in IE, VB controls, or other unknown rich controls
+		32: targets playback engine / display (DVD, image playback, etc.)
+	NoShowAsShortcut: 1 if you don't want MC to show this shortcut in menus, tooltips, etc.
+	Global: 1 if you want the accelerator to be translated even when MC doesn't have the focus
+	
+	Special key list: Insert, Delete, -, +, Right, Left, Up, Down,
+		NumPad0, NumPad1, NumPad2 (etc.), F1, F2, F3 (etc.), Backspace, Enter, Escape,
+		Apps, Page Up, Page Down, Home, End, Space
+
+	Remember that order is relevant when the same shortcut appears multiple times.
+-->
+
+<ACCELERATORS>
+
+	<Entry Key="Ctrl;L" Command="10013" Param="1" Global="0" />
+	<Entry Key="Ctrl;." Command="10013" Param="1" Global="0" />
+
+</ACCELERATORS>
+
+</MJRS>
