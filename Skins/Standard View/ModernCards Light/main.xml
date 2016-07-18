@@ -384,7 +384,7 @@
 	<!-- NOTE: VIEWHEADER is where you'll fint the split view tabs, links etc. It also affects the header you'll get when you for instance double click an album in album views.-->
 	<VIEWHEADER>
 		<!-- <Colors HeaderBackground="171717" HeaderText="909090" HeaderHotText="FFFFFF" ActiveTabText="c8c8c8" Background="2b2b2b" Text="909090" /> -->
-		<Colors HeaderBackground="e5e5e5" HeaderText="5E605F" HeaderHotText="DC2420" ActiveTabText="222222" Background="ffffff" Text="5E605F" />
+		<Colors HeaderBackground="e5e5e5" HeaderText="5E605F" HeaderHotText="0078d7" ActiveTabText="222222" Background="ffffff" Text="5E605F" />
 	</VIEWHEADER>
 
 	<SPLITVIEWTAB>
