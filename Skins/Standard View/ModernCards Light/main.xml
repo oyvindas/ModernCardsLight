@@ -243,7 +243,7 @@
 	</TOOLBARS>
 
 	<ACTIONWINDOW>
-		<Colors Text="5E605F" ActiveText="000000" Back="FAFAFC" ListBack="F7F7FC" ListText="5E605F" />
+		<Colors Text="444444" ActiveText="000000" Back="FAFAFC" ListBack="F7F7FC" ListText="444444" />
 		<!-- <Entry Name="Background" Bitmap="ActionWindow_Background.png" Margins="0,9,0,0" DrawMode="REGION_B_STRETCH,REGION_H_STRETCH,REGION_D_STRETCH,REGION_E_VSTRETCH,REGION_F_STRETCH" InternalMargins="0,0,0,0"/> -->
 		<!-- <Entry Name="Template" Bitmap="ActionWindow_Template.png" Margins="2,4,2,2" InternalMargins="1,0,1,0" VerticalSpacing="0" HeaderHeight="24" HeaderOnly="1" /> -->
 		<Entry Name="Back" Bitmap="ActionWindow_Back.png" Margins="0,0,0,0" NumberImages="3" />
@@ -272,7 +272,7 @@
 	<FRAME>
 		<Data BorderResizeForText="1" BorderTopBottomLarger="1" />
 		<!-- Among other things, this deals with the hover tooltip color. Face3D is the background of the dialogue -->
-		<Colors Text="5E605F" DisabledText="C8C8C8" Face3D="FCFCFC" Shadow3D="E2E2E2" Hilight3D="EFEFEF" />
+		<Colors Text="444444" DisabledText="C8C8C8" Face3D="FCFCFC" Shadow3D="E2E2E2" Hilight3D="EFEFEF" />
 
 		<!-- Options window etc. titlebar -->
 		<Entry Name="CaptionArea" OffsetX="0" Alignment="1" OffsetY="3" TextLeftIndent="0" TextRightIndent="0" >
@@ -328,10 +328,10 @@
 		<Entry Name="RightBorder" Bitmap="Frame_RightBorder.png" />
 
 		<Entry Name="Button" Bitmap="Frame_Button.png" Margins="2,2,2,2" NumberImages="4" DrawMode="REGION_B_STRETCH" >
-			<Colors PressedText="5E605F" OverText="5E605F" />
+			<Colors PressedText="444444" OverText="444444" />
 		</Entry>
 		<Entry Name="DefaultButton" Bitmap="Frame_Button.png" Margins="2,2,2,2" NumberImages="4" DrawMode="REGION_B_STRETCH" >
-			<Colors PressedText="5E605F" OverText="5E605F" />
+			<Colors PressedText="444444" OverText="444444" />
 		</Entry>
 
 		<!-- NOTE: Options window, rename/move dialogue ++ background color -->
@@ -342,7 +342,7 @@
 		<Entry Name="TextBox" />
 		<Entry Name="Edit" >
 			<Entry Name="Background" Bitmap="Frame_Edit.png" NumberImages="4" Margins="2,2,2,2" />
-			<Colors Text="5e605f" Back="C8C8C8" DisabledBack="f0f0f0" DisabledText="C8C8C8" />
+			<Colors Text="444444" Back="C8C8C8" DisabledBack="f0f0f0" DisabledText="C8C8C8" />
 		</Entry>
 
 		<Entry Name="ComboBox" Bitmap="Frame_ComboBoxButton.png" NumberImages="4" Margins="0,1,17,1" >
@@ -354,7 +354,7 @@
 		<Entry Name="RadioButton" Bitmap="Frame_RadioButton.png" NumberImages="8" />
 
 		<Entry Name="OptionsList">
-			<Colors Text="5e605f" SelectText="132243" HilightText="5e605f" Back="FAFAFC" Shadow="FAFAFC" Hilight="e3f8ff" />
+			<Colors Text="444444" SelectText="132243" HilightText="444444" Back="FAFAFC" Shadow="FAFAFC" Hilight="e3f8ff" />
 			<Entry Name="Selection" Bitmap="OptionsList_Selection.png" NumberImages="3" Columns="4,?-Flex,4" Rows="4,?-Flex,4,?-Flex,4" />
 		</Entry>
 
@@ -373,7 +373,7 @@
 	</FRAME>
 
 	<TREE>
-		<Colors Text="5E605F" Back="FAFAFC" OverText="C13513" SelectedText="0061AE" SelectedBack="e3f8ff" />
+		<Colors Text="444444" Back="FAFAFC" OverText="C13513" SelectedText="0061AE" SelectedBack="e3f8ff" />
 		<!-- <Entry Name="Selection" Bitmap="Tree_Selection.png" NumberImages="3" Columns="5,?-Flex,5" Rows="4,?-Flex,4,?-Flex,4" /> -->
 		<EntryGroup name="ExpandButton">
 			<Entry Bitmap="Tree_ExpandButton.png" NumberImages="2" />
@@ -383,8 +383,7 @@
 
 	<!-- NOTE: VIEWHEADER is where you'll fint the split view tabs, links etc. It also affects the header you'll get when you for instance double click an album in album views.-->
 	<VIEWHEADER>
-		<!-- <Colors HeaderBackground="171717" HeaderText="909090" HeaderHotText="FFFFFF" ActiveTabText="c8c8c8" Background="2b2b2b" Text="909090" /> -->
-		<Colors HeaderBackground="e5e5e5" HeaderText="5E605F" HeaderHotText="0078d7" ActiveTabText="222222" Background="ffffff" Text="5E605F" />
+		<Colors HeaderBackground="e5e5e5" HeaderText="444444" HeaderHotText="0078d7" ActiveTabText="222222" Background="ffffff" Text="444444" />
 	</VIEWHEADER>
 
 	<SPLITVIEWTAB>
@@ -401,10 +400,10 @@
 
 	<LIST>
 		<!-- Note that Text color will also affect borders around certain items. -->
-		<Colors Text="5E605F" Back="FFFFFF" SelectedText="132243" SelectedBack="e3f8ff" HotText="000000" Gridline="f4f4f4" GridlineBack="f8f8f8" />
+		<Colors Text="444444" Back="FFFFFF" SelectedText="132243" SelectedBack="e3f8ff" HotText="000000" Gridline="f4f4f4" GridlineBack="f8f8f8" />
 
 		<!-- Column headers in lists. Note that TextColor will also affect borders around certain items. -->
-		<Entry Name="HeaderBar" Bitmap="List_HeaderBar.png" Margins="3,2,3,3" NumberImages="3" TextColor="5E605F" OverTextColor="ffffff" PressedTextColor="ffffff" />
+		<Entry Name="HeaderBar" Bitmap="List_HeaderBar.png" Margins="3,2,3,3" NumberImages="3" TextColor="444444" OverTextColor="ffffff" PressedTextColor="ffffff" />
 
 		<Entry Name="BrowseHeaderBar" Bitmap="List_BrowseHeaderBar.png" Margins="3,2,3,3" />
 
@@ -419,14 +418,14 @@
 			<Entry Scale="2" Bitmap="List_RatingClear-2x.png" NumberImages="4" />
 		</EntryGroup>
 
-		<Entry Name="Selection" Bitmap="List_Selection.png" NumberImages="3" Columns="4,?-Flex,4" Rows="4,?-Flex,4,?-Flex,4" />
+		<Entry Name="Selection" Bitmap="List_Selection.png" NumberImages="3" Columns="2,?-Flex,2" Rows="2,?-Flex,2" />
 		<Entry Name="GroupHeader" Bitmap="List_GroupHeader.png" NumberImages="1" Columns="398,?-Flex,398" />
 		<Entry Name="LinkButton" Bitmap="List_ListButton.png" NumberImages="5" />
 		<Entry Name="InPlaceFindToolbar" Bitmap="List_InPlaceFindToolbar.png" Margins="3,3,3,3" />
 	</LIST>
 
 	<MENU>
-		<Colors Text="5E605F" SelectedText="132243" SelectedBack="008bfa" Disabled="989898" Separator="c1c1c1" />
+		<Colors Text="444444" SelectedText="132243" SelectedBack="008bfa" Disabled="989898" Separator="c1c1c1" />
 		<Entry Name="Back" Bitmap="Menu_Back.png" Margins="1,1,1,1" />
 		<Entry Name="Item" Bitmap="Menu_Item.png" NumberImages="2" Columns="4,?-Flex,4" Rows="4,?-Flex,4,?-Flex,4" />
 	</MENU>
