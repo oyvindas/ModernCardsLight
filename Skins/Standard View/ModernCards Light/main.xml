@@ -373,7 +373,8 @@
 	</FRAME>
 
 	<TREE>
-		<Colors Text="444444" Back="FAFAFC" OverText="C13513" SelectedText="0061AE" SelectedBack="e3f8ff" />
+		<Colors Text="444444" Back="FAFAFC" OverText="C13513" SelectedText="0061AE" SelectedBack="D9EBF8" />
+		<Entry Name="Selection" Bitmap="List_Selection.png" NumberImages="3" Columns="2,?-Flex,2" Rows="2,?-Flex,2" />
 		<!-- <Entry Name="Selection" Bitmap="Tree_Selection.png" NumberImages="3" Columns="5,?-Flex,5" Rows="4,?-Flex,4,?-Flex,4" /> -->
 		<EntryGroup name="ExpandButton">
 			<Entry Bitmap="Tree_ExpandButton.png" NumberImages="2" />
