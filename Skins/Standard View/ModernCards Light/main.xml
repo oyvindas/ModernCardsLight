@@ -150,7 +150,7 @@
 		</EntryGroup>
 
 		<Entry Name="Search" Bitmap="PlayerBar_Search.png" Margins="2,2,6,2" OffsetY="50" OffsetX="10">
-			<Colors Text="909090" SelectedText="f0f4fd" SelectedBack="0078d7" />
+			<Colors Text="909090" SelectedText="f0f4fd" SelectedBack="0070CC" />
 		</Entry>
 
 		<EntryGroup Name="ShuffleOffButton">
@@ -373,7 +373,7 @@
 	</FRAME>
 
 	<TREE>
-		<Colors Text="444444" Back="FAFAFC" OverText="C13513" SelectedText="0061AE" SelectedBack="D9EBF8" />
+		<Colors Text="444444" Back="FAFAFC" OverText="0070CC" SelectedText="0061AE" SelectedBack="D9EBF8" />
 		<Entry Name="Selection" Bitmap="List_Selection.png" NumberImages="3" Columns="2,?-Flex,2" Rows="2,?-Flex,2" />
 		<!-- <Entry Name="Selection" Bitmap="Tree_Selection.png" NumberImages="3" Columns="5,?-Flex,5" Rows="4,?-Flex,4,?-Flex,4" /> -->
 		<EntryGroup name="ExpandButton">
@@ -384,7 +384,7 @@
 
 	<!-- NOTE: VIEWHEADER is where you'll fint the split view tabs, links etc. It also affects the header you'll get when you for instance double click an album in album views.-->
 	<VIEWHEADER>
-		<Colors HeaderBackground="e5e5e5" HeaderText="444444" HeaderHotText="0078d7" ActiveTabText="222222" Background="ffffff" Text="444444" />
+		<Colors HeaderBackground="e5e5e5" HeaderText="444444" HeaderHotText="0070CC" ActiveTabText="222222" Background="ffffff" Text="444444" />
 	</VIEWHEADER>
 
 	<SPLITVIEWTAB>
@@ -527,9 +527,9 @@
 
 	<!-- I never, ever use the "car radio" feature, but if you have it enabled then let's at least make it a bit less in-your-face -->
 	<CARRADIO>
-		<Entry Name="ButtonLeft" Bitmap="CarRadio_ButtonLeft.png" NumberImages="4" Margins="3,3,2,0" OverTextColor="0078d7" PressedTextColor="D73100" />
-		<Entry Name="ButtonMiddle" Bitmap="CarRadio_ButtonMiddle.png" NumberImages="4" Margins="0,3,3,0" OverTextColor="0078d7" PressedTextColor="D73100" />
-		<Entry Name="ButtonRight" Bitmap="CarRadio_ButtonRight.png" NumberImages="4" Margins="0,3,3,0" OverTextColor="0078d7" PressedTextColor="D73100" />
+		<Entry Name="ButtonLeft" Bitmap="CarRadio_ButtonLeft.png" NumberImages="4" Margins="3,3,2,0" OverTextColor="0070CC" PressedTextColor="D73100" />
+		<Entry Name="ButtonMiddle" Bitmap="CarRadio_ButtonMiddle.png" NumberImages="4" Margins="0,3,3,0" OverTextColor="0070CC" PressedTextColor="D73100" />
+		<Entry Name="ButtonRight" Bitmap="CarRadio_ButtonRight.png" NumberImages="4" Margins="0,3,3,0" OverTextColor="0070CC" PressedTextColor="D73100" />
 	</CARRADIO>
 
 </MJMS>
