@@ -1,17 +1,21 @@
 @import "compass/reset";
 @import "fontello";
-// @import "normalize";
 
-/**
- * Variables
-**/
+//
+// Variables
+//
 
 $fonts-regular: "Segoe UI", Helvetica, Arial, sans-serif;
 $fonts-monospace: Consolas, Menlo, "Source Code Pro", "Lucida Console", "Courier New", Courier, monospace;
-$base-bg: #2b2b2b;
-$base-fg: #b5b5b5;
-$base-fg-light: #d8d8d8;
-$block-bg: #202020;
+$base-bg: #FFFFFF;
+$base-fg: #666666;
+$base-fg-light: #FFF;
+
+$color-link: #ABB5BF;
+
+$block-bg: #AAA;
+
+$brd-radius: .5em;
 
 $base-font-size: 15px;
 $page-width: 60%;
@@ -30,7 +34,7 @@ body {
 }
 
 a {
-	color: #ABB5BF;
+	color: $color-link;
 	text-decoration: none;
 	&:hover {
 		color: #0078d7;
@@ -50,12 +54,24 @@ h1 {
 	clear: both;
 }
 
+.donate {
+	i {
+		font-size: $base-font-size*2;
+		color: $color-link;
+		&:hover {
+			color: #FF6600;
+			cursor: pointer;
+		}
+	}
+}
+
 #start header {
 	display: table;
 	margin: 5em auto .5em auto;
 	text-align: center;
 	font-weight: 700;
 	background-color: $block-bg;
+	border-radius: $brd-radius;
 	& h1 {
 		font-size: 2em;
 		padding: .5em 1em;
@@ -63,10 +79,12 @@ h1 {
 		line-height: 1.1;
 	}
 	& h2 {
-		background-color: #333;
+		background-color: darken($block-bg, 15);
+		color: $base-fg-light;
 		font-weight: 400;
 		font-variant: small-caps;
 		padding: .25em 2em;
+		border-radius: 0 0 $brd-radius $brd-radius;
 	}
 }
 
