@@ -527,9 +527,9 @@
 
 	<!-- I never, ever use the "car radio" feature, but if you have it enabled then let's at least make it a bit less in-your-face -->
 	<CARRADIO>
-		<Entry Name="ButtonLeft" Bitmap="CarRadio_ButtonLeft.png" NumberImages="4" Margins="3,3,2,0" OverTextColor="0070CC" PressedTextColor="D73100" />
-		<Entry Name="ButtonMiddle" Bitmap="CarRadio_ButtonMiddle.png" NumberImages="4" Margins="0,3,3,0" OverTextColor="0070CC" PressedTextColor="D73100" />
-		<Entry Name="ButtonRight" Bitmap="CarRadio_ButtonRight.png" NumberImages="4" Margins="0,3,3,0" OverTextColor="0070CC" PressedTextColor="D73100" />
+		<Entry Name="ButtonLeft" Bitmap="CarRadio_ButtonLeft.png" NumberImages="4" Margins="1,1,1,1" OverTextColor="0070CC" PressedTextColor="D73100" />
+		<Entry Name="ButtonMiddle" Bitmap="CarRadio_ButtonMiddle.png" NumberImages="4" Margins="1,1,1,1" OverTextColor="0070CC" PressedTextColor="D73100" />
+		<Entry Name="ButtonRight" Bitmap="CarRadio_ButtonRight.png" NumberImages="4" Margins="1,1,1,1" OverTextColor="0070CC" PressedTextColor="D73100" />
 	</CARRADIO>
 
 </MJMS>
