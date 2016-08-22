@@ -1,5 +1,7 @@
-## MODERN CARDS LIGHT - A SKIN FOR JRIVER MEDIA CENTER
+## MODERN CARDS LIGHT EDITION - A SKIN FOR JRIVER MEDIA CENTER
 Modern Cards is a simple theme for JRiver Media Center 21+, inspired in part by Google Now's Card UI, Microsoft Office 365 and Windows 10 (hence the name). It's still in development, and improvements and changes will be posted from time to time. 
+
+Modern Cards Light- and Dark Edition is now open sourced, and licensed under a Creative Commons Attribution 4.0 International License (see LICENSE.md).
 
 ## UPDATES
 * 2016.07.16: Split out the light (prevously named "Duo") edition of the skin to its own github repo, in preparation for a public source code release.
